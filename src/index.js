@@ -16,11 +16,14 @@ fs.readdirSync("./src/Commands")
          * @type {Command}
          */
         const command = require(`./Commands/${file}`);
-        console.log(`Command ${command.name} loaded`);
         client.commands.set(command.name, command);
 })
 
-client.on("ready", () => console.log("BronyBot is Online!"));
+client.on("ready", () => {
+    console.log("BronyBot is Online!");
+
+    client.user.setActivity("b!help for commands");
+});
 
 client.on("messageCreate", message => {
 

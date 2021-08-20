@@ -15,5 +15,6 @@
   "homepage": "https://github.com/MithrilPebel/BronyBot#readme",
   "dependencies": {
     "discord.js": "^13.1.0"
-  }
+  },
+  "devDependencies": {}
 }

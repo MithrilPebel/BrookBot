@@ -11,8 +11,8 @@ module.exports = new Command({
             .setTitle("Invite Brook Bot")
             .setColor("#e37b4a")
             .setDescription("Thank you for using BrookBot! If you want to invite Brook to one of your servers, you can use the invite link [here](https://discord.com/oauth2/authorize?client_id=878045878227705898&scope=bot&permissions=2956274814)")
-            .setThumbnail("https://cdn.discordapp.com/attachments/878094699930456127/879549753019469824/invite.png")
-            .setTimestamp()
+            .setThumbnail("https://cdn.discordapp.com/attachments/878094699930456127/881217967499644978/11930121041540882615-512.png")
+            .setTimestamp();
 
         message.channel.send({ embeds: [embed] });
     }
